@@ -21,28 +21,28 @@ p {
 h1 {
   font-weight: 600;
   font-size: 52px;
-  color: #d67bff;
+  color: #e5cff7;
 }
 
 label {
   font-size: 28px;
   color: #feffac;
+  margin-right: 10px;
 }
 input[type="text"] {
   font-family: "Montserrat", sans-serif;
-  margin-left: 10px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: #d67bff;
+  background-color: #e5cff7;
 }
 
 button {
   font-family: "Montserrat", sans-serif;
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #fff;
+  background-color: #e5cff7;
   color: black;
   word-spacing: 2px;
   border: none;
@@ -75,5 +75,6 @@ p {
   }
   input[type="text"] {
     margin-top: 10px;
+    padding: 8px;
   }
 }
