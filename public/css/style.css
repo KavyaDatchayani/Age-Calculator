@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.card {
+  padding: 20px;
+  margin: 40px 50px;
+  border-radius: 10px;
+  background-color: #45ffca;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #45ffca;
+  transition: box-shadow 0.3s ease;
+}
+
+label,
+input,
+button,
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 52px;
+  color: #d67bff;
+}
+
+label {
+  font-size: 28px;
+  color: #feffac;
+}
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #d67bff;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 17px; */
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: black;
+  word-spacing: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d67bff;
+  border-radius: 6px;
+}
+
+p {
+  font-size: 28px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  label {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
